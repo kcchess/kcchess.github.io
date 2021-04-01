@@ -19,14 +19,12 @@ const entries = [
 		title: "Puzzle - Mate in One",
 		filename: "mate-in-one.html",
 		description: "Chess tactics, with mate in one posiotions.",
-		author: "",
-		github: "kcchess",
+		author: ""
 	},
 	{
 		title: "Puzzle - Mate in Three",
 		filename: "mate-in-three.html",
 		description: "Chess tactics, with mate in three posiotions.",
-		author: "",
-		github: "kcchess",
+		author: ""
 	},
 ];
