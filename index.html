@@ -196,19 +196,19 @@
 
                     // HTML Link
                     const linkButton = document.createElement("a");
-                    const linkButtonNode = document.createTextNode(filename);
+                    const linkButtonNode = document.createTextNode(filename.split('.')[0]);
                     linkButton.className = "btn btn-primary btn-md";
                     linkButton.href = `./entries/${filename}`;
                     linkButton.appendChild(linkButtonNode);
                     group1.appendChild(linkButton);
 
                     // Source Code Link
-                    const sourceCodeButton = document.createElement("a");
-                    const sourceCodeNode = document.createTextNode("Source");
-                    sourceCodeButton.className = "btn btn-secondary btn-md";
-                    sourceCodeButton.href = `https://github.com/Metroxe/one-html-page-challenge/blob/master/entries/${filename}`;
-                    sourceCodeButton.appendChild(sourceCodeNode);
-                    group1.appendChild(sourceCodeButton);
+                    //const sourceCodeButton = document.createElement("a");
+                    //const sourceCodeNode = document.createTextNode("Source");
+                    //sourceCodeButton.className = "btn btn-secondary btn-md";
+                    //sourceCodeButton.href = `https://github.com/kcchess/kcchess.github.io/blob/master/entries/${filename}`;
+                    //sourceCodeButton.appendChild(sourceCodeNode);
+                    //group1.appendChild(sourceCodeButton);
 
                     // github button
                     if (github) {
