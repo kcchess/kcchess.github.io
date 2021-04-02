@@ -16,15 +16,22 @@
 
 const entries = [
 	{
-		title: "Puzzle - Mate in One",
+		title: "Puzzles - Mate in One",
 		filename: "mate-in-one.html",
 		description: "Chess tactics, with mate in one posiotions.",
 		author: ""
 	},
 	{
-		title: "Puzzle - Mate in Three",
+		title: "Puzzles - Mate in Three",
 		filename: "mate-in-three.html",
 		description: "Chess tactics, with mate in three posiotions.",
 		author: ""
 	},
+	{
+		title: "Solve Tactics",
+		filename: "solve-tactics.html",
+		description: "Solve chess tactics in various levels",
+		author: ""
+	},
+	
 ];
